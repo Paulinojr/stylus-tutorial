@@ -1,6 +1,9 @@
 @import 'nib'
 @import 'styl/*'
 
+normalize-base()
+normalize-html5()
+
 add(a = 0, b = 0, c = 0)
     a + b + c
 
@@ -10,6 +13,7 @@ multipleValues(a, b)
 body
     background linear-gradient(top, white, black)
     color red
+    fixed top 20px left 2%
     border solid 1px @color
     margin-left add(1,2,3)
     main
@@ -19,4 +23,7 @@ body
         border solid 1px @color
         border-radius 10px
         test(15)
-        clear-fix()
+        clearfix()
+        a
+            overflow ellipsis
+            shadow-stroke(primary)

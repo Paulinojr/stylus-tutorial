@@ -1,8 +1,49 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+details,
+section,
+summary,
+aside,
+main,
+menu,
+nav,
+figcaption,
+figure,
+footer,
+header,
+hgroup {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
 body {
   background: linear-gradient(top, #fff, #000);
   -webkit-background: linear-gradient(top, #fff, #000);
   -moz-background: linear-gradient(top, #fff, #000);
   color: #be2525;
+  position: fixed;
+  top: 20px;
+  left: 2%;
   border: solid 1px #be2525;
   margin-left: 6;
 }
@@ -20,11 +61,19 @@ body main {
   margin-bottom: 15px;
   zoom: 1;
 }
-body main:after,
-body main:before {
+body main:before,
+body main:after {
   content: "";
   display: table;
 }
 body main:after {
   clear: both;
+}
+body main a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  text-shadow: -1px -1px 0 #475cd1, 1px -1px 0 #475cd1, -1px 1px 0 #475cd1, 1px 1px 0 #475cd1;
 }
