@@ -1,5 +1,7 @@
 body {
-  background: #475cd1;
+  background: linear-gradient(top, #fff, #000);
+  -webkit-background: linear-gradient(top, #fff, #000);
+  -moz-background: linear-gradient(top, #fff, #000);
   color: #be2525;
   border: solid 1px #be2525;
   margin-left: 6;
