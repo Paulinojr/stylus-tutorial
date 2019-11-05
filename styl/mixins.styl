@@ -9,6 +9,11 @@ border-radius(radius = 5px)
 transition(args)
     vendor('transition', args)
 
+test(var)
+    margin-top unit(var, 'px')
+    if var > 10
+        margin-bottom unit(var, 'px') 
+
 clear-fix()
     zoom 1
     &:after
