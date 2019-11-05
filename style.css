@@ -7,9 +7,13 @@ body {
 body main {
   margin-left: 10px 5px;
   color: #475cd1;
+  transition: all 0.2 ease;
+  -webkit-transition: all 0.2 ease;
+  -moz-transition: all 0.2 ease;
   border: solid 1px #475cd1;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   zoom: 1;
 }
 body main:after,
