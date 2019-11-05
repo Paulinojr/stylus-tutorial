@@ -4,6 +4,7 @@ body {
   border: solid 1px #be2525;
 }
 body main {
+  background: #232e68;
   color: #475cd1;
   border: solid 1px #475cd1;
   -webkit-border-radius: 10px;
