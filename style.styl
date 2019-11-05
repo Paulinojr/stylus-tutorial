@@ -9,6 +9,9 @@ add(a = 0, b = 0, c = 0)
 
 multipleValues(a, b)
     return a b
+
+rupture.scale = 0 400px 600px 800px 1050px 1800px
+rupture.scale-names = 'xs', 's', 'm', 'l', 'xl', 'hd'
     
 body
     background linear-gradient(top, white, black)
@@ -16,6 +19,10 @@ body
     fixed top 20px left 2%
     border solid 1px @color
     margin-left add(1,2,3)
+    +above('m')
+        color primary
+    +above('xl')
+        color red 
     main
         margin-left multipleValues(10px, 5px)
         color primary
