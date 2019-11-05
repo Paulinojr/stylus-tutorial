@@ -2,9 +2,10 @@ body {
   background: #475cd1;
   color: #be2525;
   border: solid 1px #be2525;
+  margin-left: 6;
 }
 body main {
-  background: #232e68;
+  margin-left: 10px 5px;
   color: #475cd1;
   border: solid 1px #475cd1;
   -webkit-border-radius: 10px;

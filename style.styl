@@ -1,11 +1,18 @@
 @import 'styl/*'
 
+add(a = 0, b = 0, c = 0)
+    a + b + c
+
+multipleValues(a, b)
+    return a b
+    
 body
     background primary
-    color: red
-    border: solid 1px @color
+    color red
+    border solid 1px @color
+    margin-left add(1,2,3)
     main
-        background shade(primary, 50%) 
+        margin-left multipleValues(10px, 5px)
         color primary
         border solid 1px @color
         border-radius 10px
