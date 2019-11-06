@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Paulinojr/stylus-tutorial#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-stylus": "^2.7.0"
+    "gulp-stylus": "^2.7.0",
+    "nib": "^1.1.2",
+    "typographic": "^3.0.0"
   }
 }
