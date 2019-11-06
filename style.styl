@@ -1,37 +1,41 @@
-@import 'nib'
-@import 'styl/*'
-
-normalize-base()
-normalize-html5()
-
-add(a = 0, b = 0, c = 0)
-    a + b + c
-
-multipleValues(a, b)
-    return a b
-
-rupture.scale = 0 400px 600px 800px 1050px 1800px
-rupture.scale-names = 'xs', 's', 'm', 'l', 'xl', 'hd'
-    
 body
-    background linear-gradient(top, white, black)
-    color red
-    fixed top 20px left 2%
-    border solid 1px @color
-    margin-left add(1,2,3)
-    font-family futura
-    +above('m')
-        color primary
-    +above('xl')
-        color red 
-    main
-        margin-left multipleValues(10px, 5px)
-        color primary
-        transition(all 0.2 ease)
-        border solid 1px @color
-        border-radius 10px
-        test(15)
-        clearfix()
-        a
-            overflow ellipsis
-            shadow-stroke(primary)
+    background red
+    
+// @import 'typographic'
+// @import 'nib'
+// @import 'styl/*'
+
+// normalize-base()
+// normalize-html5()
+
+// add(a = 0, b = 0, c = 0)
+//     a + b + c
+
+// multipleValues(a, b)
+//     return a b
+
+// rupture.scale = 0 400px 600px 800px 1050px 1800px
+// rupture.scale-names = 'xs', 's', 'm', 'l', 'xl', 'hd'
+    
+// body
+//     background linear-gradient(top, white, black)
+//     color red
+//     fixed top 20px left 2%
+//     border solid 1px @color
+//     margin-left add(1,2,3)
+//     font-family futura
+//     +above('m')
+//         color primary
+//     +above('xl')
+//         color red 
+//     main
+//         margin-left multipleValues(10px, 5px)
+//         color primary
+//         transition(all 0.2 ease)
+//         border solid 1px @color
+//         border-radius 10px
+//         test(15)
+//         clearfix()
+//         a
+//             overflow ellipsis
+//             shadow-stroke(primary)

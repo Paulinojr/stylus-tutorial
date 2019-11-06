@@ -9,9 +9,8 @@ function styles() {
 
 gulp.task(styles);
 
-function watch() {
-    gulp.watch('**/*.styl', ['styles'])
-}
 
-gulp.task(watch);
+gulp.task('watch:styles', function(){
+    return gulp.watch('**/*.styl', gulp.series('styles'));
+});
 
